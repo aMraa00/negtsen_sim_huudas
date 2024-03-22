@@ -110,17 +110,20 @@
     transition: all 0.4s ease;
 }
 .menu-wrap .menu > div > div{
-    text-align: center;
+    text-align: left;
     max-width: 90vw;
     max-height: 100vw;
     opacity: 0;
     transition: opacity 0.4s ease;
 }
-.menu-wrap .menu > div > div > ul > li{
+.menu-wrap .menu > div > div > ul > li,h1{
     list-style: none;
     color: #fff;
     font-size: 1.5rem;
     padding: 1rem;
+}
+.menu-wrap .menu > div > div > ul > h1{
+    text-align: center;
 }
 .menu-wrap .menu > div > div > ul > li >a{
     color: #fff;
